@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <!-- css link -->
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/custom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <div
+    class="todo bg-pink-200 pb-8 rounded-md shadow-xl mx-auto w-[400px] mt-[100px] p-[10px] px-4 flex flex-col gap-4">
+    <div>
+      <h1 class="mt-4 py-6 mb-4 text-center rounded-md shadow-lg bg-[#cafeff] text-black text-[24px] font-medium">To Do
+        App</h1>
+    </div>
+    <div class="flex items-center justify-between gap-2 add-new-todo ">
+      <input type="text" placeholder="type here"
+        class="w-[90%] px-4 placeholder:text-[15px] placeholder:font-extralight placeholder:text-black placeholder:text-center  border rounded-md shadow-md focus:outline-none py-3">
+      <button> <i 
+          class=" fas fa-plus text-[30px] hover:cursor-pointer hover:shadow-lg text-white border text-center border-black rounded-md bg-black py-2 px-4 "></i>
+      </button>
+
+    </div>
+
+
+    <div class="m-4 todos-list"></div>
+
+
+
+  </div>
+
+  <!-- Javascript Link -->
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/function.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
